@@ -1,9 +1,11 @@
-# Robot Coffee Shop Barista
+# Coffee Shop Barista
 # ___________________________
 
 import datetime
 import pytz
 import pywhatkit
+from myNum import Number
+TelNumber = (Number)
 
 date_today = datetime.datetime.now()
 date_today
@@ -11,13 +13,11 @@ date_today
 date_today.day
 date_today.hour
 
-Number = ("+31686049025")
-msg = input("Write Your MSG To Me :")
-time = input("Set A Send Time :")
-pywhatkit.sendwhatmsg(Number,msg,int(time))
+# msg = ("Write Your MSG To Me :")
+# time = ("Set A Send Time :")
 
 app_lang = ["HTML", "CSS", "Python", "javaScript", "SASS"]
-owner = ("Mulham Shaker FullStack Web Developer")
+owner = ("Mulham Shaker Web / Applications Developer")
 end = ("This Simply Robot Was Made By " + owner + " With " +
        app_lang[2] + " Programming Language \nI Hope That You Enjoyed Thank You ..\n ")
 
@@ -26,16 +26,16 @@ print("Welcome To Mulham coffee shop \nToday Date Time Is : " + str(date_today))
 name = input("What is your name :")
 
 if name == "subhi" or name == "wasem" or name == "ayham":
-    status = input("Do you want to give me a blowjob ?")
+    status = input("Are You Evil ?")
     if status == "no":
         print("Get Out Of Here")
         exit()
     elif status == "yes":
-        print("You Are My Poppy Bitch\n")
-if name == "rawan" or name == "yara":
+        print("You Are Welcome\n")
+if name == "" or name == "":
     status = input("And Your Last Name Is ? \n")
-    if status == "alhamood" or status == "alhamoud" or status == "alhammoud" or status == "alsabbagh":
-        print("My Shop Is Free For You bby \n")
+    if status == "" or status == "" or status == "" or status == "":
+        print("My Shop Is Free\n")
         print(end )
         exit()
 if name == "mulham" or name == "molham":
@@ -77,4 +77,5 @@ total = price * int(orderNumber)
 print("cool, " + name + " your total is " + str(total) +
       " and your " + orderNumber + " " + order + " will come when i say so \n")
 
-print(end )
+print(end)
+# pywhatkit.sendwhatmsg(TelNumber,msg,int(time))
