@@ -25,8 +25,8 @@ print("Welcome To Mulham coffee shop \nToday Date Time Is : " + str(date_today))
 
 name = input("What is your name :")
 
-if name == "subhi" or name == "wasem" or name == "ayham":
-    status = input("Are You Evil ?")
+if name == "" or name == "" or name == "":
+    status = input("Are U Rich ?")
     if status == "no":
         print("Get Out Of Here")
         exit()
@@ -63,7 +63,7 @@ elif order == "latte":
 elif order == "espresso":
     price = 3
 elif order == "water":
-    print("Go To the Sea To Drink Water Stupid \n")
+    print("Go To the Sea To Drink Water\n")
     print(end )
     exit()
 
